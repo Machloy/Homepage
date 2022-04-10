@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Montserrar, sans-serif;
+  line-height: 1.2;
+  background-image: url();
+}
+
+.nav {
+  padding: 10px;
+  background: rgb(231, 231, 231);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nav__listItem {
+  list-style: none;
+  padding: 2px 0;
+}
+
+.nav__anchor {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.nav__anchor:hover {
+  border-bottom: 1px solid gray;
+}
+
+.theme {
+  text-align: center;
+  margin: 20px;
+}
+
+.theme__button {
+  background-color: transparent;
+  border: 1px solid gray;
+  cursor: pointer;
+  padding: 7px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.nav__list {
+  padding: 0;
+}
+
+.theme__button:hover {
+  box-shadow: 4px 4px 8px 0px rgba(66, 68, 90);
+}
+
+.header {
+  text-align: center;
+}
+
+.header_main {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.header__img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.section {
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+.section__paragraph,
+.section__caption {
+  margin: 10px 0;
+}
+
+.section__table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.section__tableHeaders {
+  background-color: rgb(82, 82, 82);
+  color: white;
+}
+
+.section__tableCell {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  background: rgb(231, 231, 231);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer__paragraph {
+  padding: 5px 0;
+}
+
+.nightMode {
+  background-image: url(https://img.freepik.com/darmowe-wektory/biale-tlo-abstrakcyjny-wzor_23-2148825582.jpg?t=st=1649534971~exp=1649535571~hmac=794b7242dd5fecae1a3bbb913f365bdd068a111330f6bc985e1a9057353056e7&w=1380);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

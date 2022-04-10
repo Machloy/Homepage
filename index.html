@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="https://i.ibb.co/gSKZfsn/Webpage.png" />
+    <link
+      rel="icon"
+      href="https://img.favpng.com/2/10/3/computer-icons-calculator-png-favpng-wbhiLCa45UD16TnYgD3YTK8Qh.jpg"
+    />
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Moduł 3 zadanie</title>
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__listItem">
+            <a class="nav__anchor" href="#aboutMe">O mnie</a>
+          </li>
+          <li class="nav__listItem">
+            <a class="nav__anchor" href="#learning">Programowanie</a>
+          </li>
+          <li class="nav__listItem">
+            <a class="nav__anchor" href="#table">Tabela</a>
+          </li>
+          <li class="nav__listItem">
+            <a class="nav__anchor" href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="theme">
+        <button class="theme__button js-theme__button">Włącz szary motyw</button>
+      </div>
+      <header class="header">
+        <h1 class="header_main">Strona poświęcona zadaniu: Moduł 3</h1>
+        <img
+          class="header__img"
+          src="https://i.ibb.co/Mp9H261/paciuch.jpg"
+          alt="Zdjęcie przedstawiające autora strony w niebieskiej koszuli w kratę"
+        />
+      </header>
+      <main>
+        <section class="section" id="aboutMe">
+          <h2>O mnie</h2>
+          <p class="section__paragraph">
+            Hej. Mam na imię Maciej. Pochodzę z Suwałk a aktualnie mieszkam w
+            Poznaniu. Nie posiadam szczególnie zainteresowań, prócz
+            zainteresowaniem technologią ogólną. Jako dziecko wszystko co miało
+            trochę więcej elektroniki, rozbierałem na części pierwsze i
+            patrzyłem jak działa - i dlaczego. Bardzo lubię czytać książki,
+            zwłaszcza fantastykę, ale na mojej pułce nie brakuje też
+            psychologicznych pozycji.
+          </p>
+        </section>
+        <section class="section" id="learning">
+          <h2>Moja przygoda z programowaniem</h2>
+          <p class="section__paragraph">
+            Naukę front-endu zacząłem ponad pół roku temu. Najpierw uczyłem się
+            na własną rekę, później z kursów i na koniec, przez uczucie braku
+            usystematyzowania swojej wiedzy trafiłem na YouCode.
+          </p>
+        </section>
+        <section class="section" id="table">
+          <h2>Tabela</h2>
+          <table class="section__table">
+            <caption class="section__caption">
+              Skróty klawiszowe VS Code
+            </caption>
+            <tr class="section__tableHeaders">
+              <th scope="col" class="section__section__firstCol">Działanie</th>
+              <th scope="col" class="section__section__secondCol">Skrót</th>
+            </tr>
+            <tr>
+              <th scope="row" class="section__tableCell">
+                Visual Studio search
+              </th>
+              <td class="section__tableCell">CTRL + Q</td>
+            </tr>
+            <tr>
+              <th scope="row" class="section__tableCell">IntelliSense</th>
+              <td class="section__tableCell">CTRL + SPACJA</td>
+            </tr>
+            <tr>
+              <th scope="row" class="section__tableCell">
+                Szybkie wyszukiwanie
+              </th>
+              <td class="section__tableCell">CTRL + F</td>
+            </tr>
+            <tr>
+              <th scope="row" class="section__tableCell">Przejdź do</th>
+              <td class="section__tableCell">CTRL + ,</td>
+            </tr>
+            <tr>
+              <th scope="row" class="section__tableCell">Implementator</th>
+              <td class="section__tableCell">CTRL + F12</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+      <footer class="footer" id="contact">
+        <p class="footer__paragraph">Maciej Godlewski &copy; 2022</p>
+        <p class="footer__paragraph">godlewski1a@gmail.com</p>
+      </footer>
+    </div>
+  </body>
+</html>
