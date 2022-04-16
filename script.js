@@ -1,11 +1,18 @@
-let btn = document.querySelector (".js-theme__button");
-let body = document.querySelector (".body")
-
-btn.addEventListener("click", () => {
+{
+  const backgroundToggle = () => {
+    const btn = document.querySelector(".js-theme__button");
+    const body = document.querySelector(".body");
     body.classList.toggle("nightMode");
-    if (body.classList.contains("nightMode")) {
-      btn.innerText = "Wyłącz szary motyw";
-    } else {
-      btn.innerText = "Włącz szary motyw";
-    }
-  });
+
+    btn.innerText = body.classList.contains("nightMode")
+      ? "Wyłącz szary motyw"
+      : "Włącz szary motyw";
+  };
+
+  const init = () => {
+    const btn = document.querySelector(".js-theme__button");
+    btn.addEventListener("click", backgroundToggle);
+  };
+
+  init();
+}
